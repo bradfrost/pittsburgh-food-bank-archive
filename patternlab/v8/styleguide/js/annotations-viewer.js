@@ -1,7 +1,7 @@
 /*!
  * Annotations Support for the Viewer - v0.3
  *
- * Copyright (c) 2013 Brad Frost, http://bradfrostweb.com & Dave Olsen, http://dmolsen.com
+ * Copyright (c) 2013 Brad Frost, http://bradfrost.com & Dave Olsen, http://dmolsen.com
  * Licensed under the MIT license
  *
  */
