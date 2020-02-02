@@ -1,0 +1,146 @@
+&lt;div class=&quot;page&quot; id=&quot;page&quot;&gt;
+	&lt;!-- Begin .header --&gt;
+	&lt;header class=&quot;header header-simple&quot; role=&quot;banner&quot;&gt;
+		&lt;div class=&quot;lc&quot;&gt;
+		&lt;a href=&quot;../../patterns/04-pages-00-home-00-homepage/04-pages-00-home-00-homepage.html&quot; rel=&quot;home&quot; class=&quot;logo-link&quot; tabindex=&quot;1&quot;&gt;&lt;img src=&quot;../../images/logo.svg&quot; class=&quot;logo&quot; alt=&quot;Greater Pittsburgh Community Food Bank, a member of Feeding America&quot; /&gt;&lt;/a&gt;		&lt;/div&gt;
+	&lt;/header&gt;
+	&lt;!-- End .header --&gt;	&lt;div role=&quot;main&quot;&gt;
+		&lt;div class=&quot;page-header &quot;&gt;
+			&lt;h1 class=&quot;page-title&quot;&gt;Page Title&lt;/h1&gt;
+			&lt;p class=&quot;page-intro&quot;&gt;Into text about the page (less than 140 characters long)&lt;/p&gt;
+		&lt;/div&gt;		
+		&lt;section class=&quot;section&quot;&gt;
+			&lt;div class=&quot;lc lc-single&quot;&gt;
+				&lt;div class=&quot;donate donate-page&quot;&gt;
+	&lt;form method=&quot;post&quot; action=&quot;https://secure2.convio.net/gpcfb/site/CRDonationAPI&quot; class=&quot;donate-form luminateApi donation-form&quot; id=&quot;donate-form&quot;&gt;
+		&lt;input type=&quot;hidden&quot; name=&quot;method&quot; value=&quot;donate&quot; /&gt;
+	    &lt;input type=&quot;hidden&quot; name=&quot;form_id&quot; value=&quot;4080&quot; /&gt;
+	    &lt;input type=&quot;hidden&quot; name=&quot;validate&quot; value=&quot;true&quot; /&gt;
+	    &lt;input type=&quot;hidden&quot; name=&quot;df_preview&quot; value=&quot;true&quot; /&gt;
+	    &lt;input type=&quot;hidden&quot; name=&quot;billing.name.first&quot; id=&quot;billing-first-name&quot; value=&quot;&quot; /&gt;
+	    &lt;input type=&quot;hidden&quot; name=&quot;billing.name.last&quot; id=&quot;billing-last-name&quot; value=&quot;&quot; /&gt;
+	    
+		&lt;fieldset class=&quot;donate-step&quot; id=&quot;donate-step-1&quot;&gt;
+			&lt;h4 class=&quot;donate-step-legend&quot;&gt;&lt;span class=&quot;form-step&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;donate-step-message&quot;&gt;Choose an amount to donate:&lt;/span&gt;&lt;/h4&gt;
+			
+			&lt;ul class=&quot;chicklet-list&quot;&gt;
+				&lt;li&gt;
+					&lt;input type=&quot;radio&quot; id=&quot;donate-amount-1&quot; name=&quot;donate-amount&quot; /&gt;
+					&lt;label for=&quot;donate-amount-1&quot; data-amount=&quot;25&quot; data-message=&quot;$25 can feed a family for a day&quot;&gt;$25&lt;/label&gt;
+				&lt;/li&gt;
+				&lt;li&gt;
+					&lt;input type=&quot;radio&quot; id=&quot;donate-amount-2&quot; name=&quot;donate-amount&quot; checked=&quot;checked&quot; /&gt;
+					&lt;label for=&quot;donate-amount-2&quot; data-amount=&quot;50&quot; data-message=&quot;$50 can feed a family for a week&quot;&gt;$50&lt;/label&gt;
+				&lt;/li&gt;
+				&lt;li&gt;
+					&lt;input type=&quot;radio&quot; id=&quot;donate-amount-3&quot; name=&quot;donate-amount&quot; /&gt;
+					&lt;label for=&quot;donate-amount-3&quot; data-amount=&quot;100&quot; data-message=&quot;$100 can feed a family of 4 for a week&quot;&gt;$100&lt;/label&gt;
+				&lt;/li&gt;
+				&lt;li&gt;
+					&lt;input type=&quot;radio&quot; id=&quot;donate-amount-4&quot; name=&quot;donate-amount&quot; /&gt;
+					&lt;label for=&quot;donate-amount-4&quot; data-amount=&quot;250&quot; data-message=&quot;$250 can feed a family of 4 for two weeks&quot;&gt;$250&lt;/label&gt;
+				&lt;/li&gt;
+				&lt;li&gt;
+					&lt;input type=&quot;radio&quot; id=&quot;donate-amount-5&quot; name=&quot;donate-amount&quot; /&gt;
+					&lt;label for=&quot;donate-amount-5&quot; data-amount=&quot;500&quot; data-message=&quot;$500 can feed a family of 4 for four weeks&quot;&gt;$500&lt;/label&gt;
+				&lt;/li&gt;
+				&lt;li&gt;
+					&lt;div class=&quot;input-container&quot; data-message=&quot;Every dollar you donate helps end hunger.&quot;&gt;
+						&lt;span class=&quot;input-addon&quot;&gt;$&lt;/span&gt;&lt;input type=&quot;text&quot; id=&quot;other-amount&quot; placeholder=&quot;Other&quot;  /&gt;
+					&lt;/div&gt;
+				&lt;/li&gt;
+			&lt;/ul&gt;
+			
+			&lt;div class=&quot;field-container amount-container&quot;&gt;
+				&lt;label for=&quot;other&quot;&gt;Enter Amount&lt;/label&gt;
+				&lt;input type=&quot;number&quot; pattern=&quot;[0-9]*&quot; id=&quot;donation-amount&quot; name=&quot;donation_amount&quot; placeholder=&quot;$50.00&quot; /&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&quot;field-container checkbox-container&quot;&gt;
+				&lt;input type=&quot;checkbox&quot; id=&quot;donate-monthly&quot; /&gt;
+				&lt;label for=&quot;donate-monthly&quot;&gt;I would like to make this a monthly donation&lt;/label&gt;
+			&lt;/div&gt;
+		&lt;/fieldset&gt;&lt;!--end .donate-step--&gt;
+
+		&lt;fieldset class=&quot;donate-step&quot; id=&quot;donate-step-2&quot;&gt;
+
+			&lt;h4 class=&quot;donate-step-legend&quot;&gt;&lt;span class=&quot;form-step&quot;&gt;2&lt;/span&gt; Enter your information:&lt;/h4&gt;
+			&lt;div class=&quot;g g-2up&quot;&gt;
+				&lt;div class=&quot;field-container gi&quot;&gt;
+					&lt;label for=&quot;donate-name&quot;&gt;Full Name&lt;/label&gt;
+					&lt;input type=&quot;text&quot; id=&quot;donate-name&quot; placeholder=&quot;Firstname Lastname&quot; autocomplete=&quot;off&quot; required pattern=&quot;\ &quot; data-parsley-pattern=&quot;\ &quot; data-parsley-error-message=&quot;Please enter your first and last name&quot; /&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;field-container gi&quot;&gt;
+					&lt;label for=&quot;donate-email&quot;&gt;E-mail&lt;/label&gt;
+					&lt;input type=&quot;email&quot; id=&quot;donate-email&quot; placeholder=&quot;your@email.com&quot; required data-parsley-error-message=&quot;Please enter a valid e-mail address&quot; name=&quot;donor.email&quot; /&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;field-container gi&quot;&gt;
+					&lt;label for=&quot;donate-address&quot;&gt;Address&lt;/label&gt;
+					&lt;input type=&quot;text&quot; id=&quot;donate-address&quot; placeholder=&quot;123 Main St, Apt 2&quot; autocomplete=&quot;off&quot; required data-parsley-error-message=&quot;Please enter your street address&quot; name=&quot;billing.address.street1&quot; /&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;field-container gi&quot;&gt;
+					&lt;label for=&quot;donate-zip&quot;&gt;ZIP&lt;/label&gt;
+					&lt;input type=&quot;text&quot; id=&quot;donate-zip&quot; placeholder=&quot;15201&quot; autocomplete=&quot;off&quot; required data-parsley-error-message=&quot;Please enter a valid ZIP code&quot; pattern=&quot;[0-9]*&quot; name=&quot;billing.address.zip&quot; /&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;field-container gi field-container-city&quot;&gt;
+					&lt;label for=&quot;donate-city&quot;&gt;City&lt;/label&gt;
+					&lt;input type=&quot;text&quot; id=&quot;donate-city&quot; placeholder=&quot;Pittsburgh&quot; autocomplete=&quot;off&quot; required data-parsley-error-message=&quot;Please enter your city&quot; name=&quot;billing.address.city&quot; /&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;field-container gi field-container-state&quot;&gt;
+					&lt;label for=&quot;donate-state&quot;&gt;State&lt;/label&gt;
+					&lt;input type=&quot;text&quot; id=&quot;donate-state&quot; placeholder=&quot;PA&quot; autocomplete=&quot;off&quot; name=&quot;billing.address.state&quot; required /&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;&lt;!--end .g-2up--&gt;
+		&lt;/fieldset&gt;&lt;!--end .donate-step--&gt;
+		
+		&lt;fieldset class=&quot;donate-step&quot; id=&quot;donate-step-3&quot;&gt;
+			&lt;h4 class=&quot;donate-step-legend&quot;&gt;&lt;span class=&quot;form-step&quot;&gt;3&lt;/span&gt; Enter your billing info:&lt;/h4&gt;
+			
+			&lt;div class=&quot;radio-container&quot; id=&quot;payment-type-radio&quot;&gt;
+				&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;payment_type&quot; checked=&quot;checked&quot; data-payment-type=&quot;payment-type-cc&quot; /&gt; Credit Card&lt;/label&gt;
+				&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;payment_type&quot;  data-payment-type=&quot;payment-type-bank&quot; /&gt; Bank Account&lt;/label&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&quot;payment-type active&quot; id=&quot;payment-type-cc&quot;&gt;
+				&lt;h4&gt;Credit Card Info&lt;/h4&gt;
+				&lt;div class=&quot;credit-card-group&quot;&gt;
+					&lt;label for=&quot;card-number&quot;&gt;Credit Card Number&lt;/label&gt;
+					&lt;input placeholder=&quot;1234 5678 9012 3456&quot; pattern=&quot;[0-9]*&quot; type=&quot;text&quot; class=&quot;card-number&quot; id=&quot;card-number&quot; name=&quot;card_number&quot;&gt;
+					&lt;label for=&quot;card-expiration&quot;&gt;Credit Card Expiration&lt;/label&gt;
+					&lt;input placeholder=&quot;MM/YY&quot; pattern=&quot;[0-9]*&quot; type=&quot;text&quot; class=&quot;card-expiration&quot; id=&quot;card-expiration&quot; name=&quot;card_exp&quot;&gt;
+					&lt;label for=&quot;card-cvv&quot;&gt;Credit Card Expiration&lt;/label&gt;
+					&lt;input placeholder=&quot;CVV&quot; pattern=&quot;[0-9]*&quot; type=&quot;text&quot; class=&quot;card-cvv&quot; id=&quot;card-cvv&quot; name=&quot;card_cvv&quot;&gt;
+					&lt;label for=&quot;card-expiration&quot;&gt;Credit Card Billing ZIP Code&lt;/label&gt;
+					&lt;input placeholder=&quot;ZIP&quot; pattern=&quot;[0-9]*&quot; type=&quot;text&quot; class=&quot;card-zip&quot;&gt;
+				&lt;/div&gt;&lt;!--end .credit-card-group--&gt;
+			&lt;/div&gt;&lt;!--end .payment-type-bank--&gt;
+			
+			&lt;div class=&quot;payment-type&quot; id=&quot;payment-type-bank&quot;&gt;
+				&lt;div class=&quot;g g-2up&quot;&gt;
+					&lt;div class=&quot;field-container gi&quot;&gt;
+						&lt;label for=&quot;bank-routing&quot;&gt;Routing Number&lt;/label&gt;
+						&lt;input type=&quot;text&quot; id=&quot;bank-routing&quot; placeholder=&quot;036001808&quot; pattern=&quot;[0-9]*&quot; autocomplete=&quot;off&quot; name=&quot;billing.address.state&quot; /&gt;
+					&lt;/div&gt;
+					&lt;div class=&quot;field-container gi&quot;&gt;
+						&lt;label for=&quot;bank-account&quot;&gt;Bank Account Number&lt;/label&gt;
+						&lt;input type=&quot;text&quot; id=&quot;bank-account&quot; placeholder=&quot;0175380001&quot; pattern=&quot;[0-9]*&quot; name=&quot;billing.address.zip&quot; /&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;&lt;!--end .g-2up--&gt;
+			&lt;/div&gt;&lt;!--end .payment-container-bank--&gt;
+		&lt;/fieldset&gt;&lt;!--end .donate-step--&gt;
+		&lt;button class=&quot;donate-submit btn&quot;&gt;&lt;span class=&quot;donate-submit-text&quot;&gt;Donate&lt;/span&gt; &lt;span class=&quot;icon-arrow-right5&quot;&gt;&lt;/span&gt;&lt;/button&gt;
+	&lt;/form&gt;&lt;!--end .donate-form--&gt;				&lt;/div&gt;			&lt;/div&gt;
+			
+		&lt;/section&gt;
+		
+	&lt;/div&gt;&lt;!--End role=main--&gt;
+	&lt;!-- Begin Footer --&gt;
+	&lt;footer class=&quot;footer&quot; role=&quot;contentinfo&quot;&gt;
+		
+		&lt;div class=&quot;lc&quot;&gt;		
+			&lt;div class=&quot;footer-meta&quot;&gt;
+			&lt;a href=&quot;../../patterns/04-pages-00-home-00-homepage/04-pages-00-home-00-homepage.html&quot; rel=&quot;home&quot; class=&quot;logo-link&quot; tabindex=&quot;1&quot;&gt;&lt;img src=&quot;../../images/logo.svg&quot; class=&quot;logo&quot; alt=&quot;Greater Pittsburgh Community Food Bank, a member of Feeding America&quot; /&gt;&lt;/a&gt;				&lt;p class=&quot;copyright&quot;&gt;&copy; 2014 All Rights Reserved. &lt;a href=&quot;#&quot;&gt;View our Privacy Policy&lt;/a&gt;&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/footer&gt;
+	&lt;!-- End Footer --&gt;&lt;/div&gt;

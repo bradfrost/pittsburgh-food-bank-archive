@@ -1,0 +1,47 @@
+&lt;div class=&quot;page&quot; id=&quot;page&quot;&gt;
+	{{&gt; organisms-header }}
+	&lt;div role=&quot;main&quot;&gt;
+		{{&gt; molecules-page-header }}
+		&lt;div class=&quot;l&quot;&gt;
+			&lt;div class=&quot;lc&quot;&gt;
+				&lt;div class=&quot;section&quot;&gt;
+					&lt;div class=&quot;recipe-rainbow&quot;&gt;
+						&lt;div class=&quot;recipe-toolbar&quot;&gt;
+							&lt;form action=&quot;#&quot; method=&quot;get&quot; class=&quot;inline-form&quot; id=&quot;ingredient-form&quot;&gt;
+								&lt;fieldset&gt;
+									&lt;legend&gt;Enter ingredients&lt;/legend&gt;
+									&lt;label for=&quot;ingredient&quot;&gt;Enter an ingredient:&lt;/label&gt;
+									&lt;div class=&quot;inline-container&quot;&gt;
+										&lt;input type=&quot;text&quot; id=&quot;ingredient&quot; placeholder='i.e. &quot;Carrots&quot;, &quot;Beets&quot;' /&gt;
+										&lt;button class=&quot;btn&quot;&gt;Add&lt;/button&gt;
+									&lt;/div&gt;
+								&lt;/fieldset&gt;
+							&lt;/form&gt;
+							
+							&lt;div class=&quot;ingredients-controls&quot;&gt;
+								&lt;h4&gt;Your ingredients:&lt;/h4&gt;
+								&lt;ul class=&quot;ingredient-list&quot;&gt;
+									
+								&lt;/ul&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+						&lt;div class=&quot;recipe-results&quot;&gt;
+							&lt;h2 class=&quot;recipe-results-title&quot;&gt;Recipes containing &lt;span class=&quot;result-ingredient-list&quot;&gt;&lt;/span&gt;:&lt;/h2&gt;
+							&lt;ul class=&quot;g g-2up&quot;&gt;
+								{{# list }}
+								&lt;li class=&quot;gi&quot;&gt;
+									{{&gt; molecules-block-recipe }}
+								&lt;/li&gt;
+								{{/ list }}
+							&lt;/ul&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;&lt;!--end .lc--&gt;
+			
+			{{&gt; organisms-well-subscribe }}
+			{{&gt; organisms-sidebar }}
+		&lt;/div&gt;
+	&lt;/div&gt;&lt;!--End role=main--&gt;
+	{{&gt; organisms-footer }}
+&lt;/div&gt;

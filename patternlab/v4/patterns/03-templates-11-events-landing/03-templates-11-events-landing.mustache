@@ -1,0 +1,32 @@
+&lt;div class=&quot;page&quot; id=&quot;page&quot;&gt;
+	{{&gt; organisms-header }}
+	&lt;div role=&quot;main&quot;&gt;
+		&lt;div class=&quot;lc&quot;&gt;
+			{{&gt; molecules-page-header }}
+		&lt;/div&gt;
+		&lt;div class=&quot;l-3col&quot;&gt;
+			&lt;div class=&quot;l-main&quot;&gt;
+				&lt;section class=&quot;section&quot;&gt;
+					&lt;h2&gt;Upcoming Events&lt;/h2&gt;
+					&lt;ul class=&quot;post-list event-list&quot;&gt;
+						{{# eventList }}
+						&lt;li&gt;{{&gt; molecules-block-event }}&lt;/li&gt;
+						{{/ eventList }}
+					&lt;/ul&gt;
+				&lt;/section&gt;
+				{{&gt; organisms-well-subscribe }}
+				&lt;section class=&quot;section&quot;&gt;
+					&lt;h2&gt;Want to organize an event?&lt;/h2&gt;
+					&lt;p&gt;The Food Bank divides special events into two types, those we sponsor and organize, and those that are created and carried out by people or groups in the community on our behalf. If you wish to hold an event on our behalf, please &lt;a href=&quot;#&quot;&gt;contact the Special Events Coordinator.&lt;/a&gt;&lt;/p&gt;
+				&lt;/section&gt;
+			&lt;/div&gt;&lt;!--end .l-main--&gt;
+			&lt;div class=&quot;l-sidebar&quot;&gt;
+				{{&gt; molecules-section-nav }}
+			&lt;/div&gt;&lt;!--end .l-sidebar--&gt;
+			&lt;div class=&quot;l-sidebar2&quot;&gt;
+				{{&gt; organisms-sidebar-text-list }}
+			&lt;/div&gt;&lt;!--end .l-sidebar2--&gt;
+		&lt;/div&gt;&lt;!--end .l-3col--&gt;
+	&lt;/div&gt;&lt;!--End role=main--&gt;
+	{{&gt; organisms-footer }}
+&lt;/div&gt;

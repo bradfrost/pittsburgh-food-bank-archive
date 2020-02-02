@@ -1,0 +1,55 @@
+{{# donate }}
+&lt;div class=&quot;donate&quot;&gt;
+	&lt;div class=&quot;lc&quot;&gt;
+		&lt;h2 class=&quot;section-title&quot;&gt;Help feed the the greater Pittsburgh community&lt;/h2&gt;
+		&lt;form method=&quot;post&quot; action=&quot;#&quot; class=&quot;donate-form&quot;&gt;
+				&lt;fieldset class=&quot;donate-step donate-range-container&quot; id=&quot;donate-step-1&quot;&gt;
+					&lt;legend&gt;&lt;span class=&quot;donate-slider-amount blank&quot;&gt;&lt;/span&gt; &lt;span class=&quot;donate-slider-message&quot;&gt;Slide to choose amount to donate:&lt;/span&gt;&lt;/legend&gt;
+					&lt;div class=&quot;field-container&quot;&gt;
+						&lt;label for=&quot;donate-range&quot; class=&quot;field-instruction is-vishidden&quot;&gt;Slide to choose amount to donate:&lt;/label&gt;
+						&lt;input type=&quot;number&quot; data-type=&quot;range&quot; class=&quot;donate-range ui-slider-input&quot; id=&quot;donate-range&quot; value=&quot;5&quot; min=&quot;1&quot; max=&quot;100&quot; /&gt;
+					&lt;/div&gt;
+					&lt;div class=&quot;field-container checkbox-container&quot;&gt;
+						&lt;input type=&quot;checkbox&quot; id=&quot;donate-monthly&quot; /&gt;
+						&lt;label for=&quot;donate-monthly&quot;&gt;Yes, I would like to donate this amount monthly&lt;/label&gt;
+					&lt;/div&gt;
+				&lt;/fieldset&gt;&lt;!--end .donate-step--&gt;
+
+				&lt;fieldset class=&quot;donate-step&quot; id=&quot;donate-step-2&quot;&gt;
+					&lt;legend class=&quot;donate-step-legend&quot;&gt;&lt;span class=&quot;form-step&quot;&gt;2&lt;/span&gt; Enter your information:&lt;/legend&gt;
+					&lt;div class=&quot;g g-2up&quot;&gt;
+						&lt;div class=&quot;field-container gi&quot;&gt;
+							&lt;label for=&quot;donate-name&quot;&gt;Name&lt;/label&gt;
+							&lt;input type=&quot;text&quot; id=&quot;donate-name&quot; placeholder=&quot;First Last&quot; autocomplete=&quot;off&quot; required data-parsley-error-message=&quot;Please enter your full name&quot; /&gt;
+						&lt;/div&gt;
+						&lt;div class=&quot;field-container gi&quot;&gt;
+							&lt;label for=&quot;donate-email&quot;&gt;E-mail&lt;/label&gt;
+							&lt;input type=&quot;email&quot; id=&quot;donate-email&quot; placeholder=&quot;your@email.com&quot; required data-parsley-error-message=&quot;Please enter a valid e-mail address&quot; /&gt;
+						&lt;/div&gt;
+						&lt;div class=&quot;field-container gi&quot;&gt;
+							&lt;label for=&quot;donate-address&quot;&gt;Address&lt;/label&gt;
+							&lt;input type=&quot;text&quot; id=&quot;donate-address&quot; placeholder=&quot;123 Main St, Apt 2&quot; autocomplete=&quot;off&quot; required data-parsley-error-message=&quot;Please enter your street address&quot; /&gt;
+						&lt;/div&gt;
+						&lt;div class=&quot;field-container gi&quot;&gt;
+							&lt;label for=&quot;donate-city&quot;&gt;City, State&lt;/label&gt;
+							&lt;input type=&quot;text&quot; id=&quot;donate-city&quot; placeholder=&quot;Pittsburgh, PA&quot; autocomplete=&quot;off&quot; required data-parsley-error-message=&quot;Please enter your city and state, separated by a comma&quot; pattern=&quot;\,+&quot;	HTML5
+data-parsley-pattern=&quot;\,+&quot; /&gt;
+						&lt;/div&gt;
+						
+					&lt;/div&gt;&lt;!--end .g-2up--&gt;
+				&lt;/fieldset&gt;&lt;!--end .donate-step--&gt;
+				
+				&lt;fieldset class=&quot;donate-step&quot; id=&quot;donate-step-3&quot;&gt;
+					&lt;legend class=&quot;donate-step-legend&quot;&gt;&lt;span class=&quot;form-step&quot;&gt;3&lt;/span&gt; Credit card info:&lt;/legend&gt;
+					&lt;div class=&quot;credit-card-group&quot;&gt;
+						&lt;input placeholder=&quot;1234 5678 9012 3456&quot; pattern=&quot;[0-9]*&quot; type=&quot;text&quot; class=&quot;card-number&quot; id=&quot;card-number&quot;&gt;
+						&lt;input placeholder=&quot;MM/YY&quot; pattern=&quot;[0-9]*&quot; type=&quot;text&quot; class=&quot;card-expiration&quot;&gt;
+						&lt;input placeholder=&quot;CVV&quot; pattern=&quot;[0-9]*&quot; type=&quot;text&quot; class=&quot;card-cvv&quot;&gt;
+						&lt;input placeholder=&quot;ZIP&quot; pattern=&quot;[0-9]*&quot; type=&quot;text&quot; class=&quot;card-zip&quot;&gt;
+					&lt;/div&gt;
+				&lt;/fieldset&gt;&lt;!--end .donate-step--&gt;
+				&lt;button class=&quot;donate-submit btn&quot;&gt;Donate&lt;/button&gt;
+		&lt;/form&gt;&lt;!--end .donate-form--&gt;
+	&lt;/div&gt;&lt;!-- end .lc--&gt;
+&lt;/div&gt;&lt;!-- end .donate-slider--&gt;
+{{/ donate }}

@@ -1,0 +1,72 @@
+&lt;div class=&quot;page&quot; id=&quot;page&quot;&gt;
+	{{&gt; organisms-header }}
+	&lt;div role=&quot;main&quot;&gt;
+		{{&gt; molecules-hero-text-banner }}
+		&lt;div class=&quot;lc&quot;&gt;
+			{{&gt; molecules-hero }}
+		&lt;/div&gt;
+		&lt;div class=&quot;lc&quot;&gt;
+			{{# touts }}
+				&lt;div class=&quot;g g-1to3up section-homepage-touts&quot;&gt;
+					&lt;div class=&quot;gi&quot;&gt;
+						{{&gt; molecules-block-thumb-title-excerpt }}
+					&lt;/div&gt;
+					&lt;div class=&quot;gi&quot;&gt;
+						{{&gt; molecules-block-thumb-title-excerpt }}
+					&lt;/div&gt;
+					&lt;div class=&quot;gi&quot;&gt;
+						{{&gt; molecules-block-thumb-title-excerpt }}
+					&lt;/div&gt;
+				&lt;/div&gt;
+			{{/ touts }}
+		&lt;/div&gt;
+		&lt;section class=&quot;section section-shade-2&quot;&gt;
+			&lt;div class=&quot;lc&quot;&gt;
+				&lt;div class=&quot;icon-grocery-bag&quot;&gt;&lt;/div&gt;
+				&lt;p class=&quot;section-intro&quot;&gt;We're here to help and we're working hard to fight hunger.&lt;/p&gt;
+				
+				&lt;div class=&quot;list-section list-section-get-help&quot;&gt;
+					&lt;h2 class=&quot;list-section-title&quot;&gt;Get Help&lt;/h2&gt;
+					&lt;ul class=&quot;text-list&quot;&gt;
+						&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Find food near you&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href=&quot;#&quot;&gt;View upcoming events&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href=&quot;#&quot;&gt;View simple, affordable recipes&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href=&quot;#&quot;&gt;View SNAP benefits&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Learn more about hunger&lt;/a&gt;&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/div&gt;
+				
+				&lt;div class=&quot;list-section list-section-give-help&quot;&gt;
+					&lt;h2 class=&quot;list-section-title&quot;&gt;Give Help&lt;/h2&gt;
+					&lt;ul class=&quot;text-list&quot;&gt;
+						&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Find food near you&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href=&quot;#&quot;&gt;View upcoming events&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href=&quot;#&quot;&gt;View simple, affordable recipes&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href=&quot;#&quot;&gt;View SNAP benefits&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Learn more about hunger&lt;/a&gt;&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/section&gt;
+
+		&lt;section class=&quot;section section-shade&quot;&gt;
+			&lt;div class=&quot;lc&quot;&gt;
+				&lt;div class=&quot;icon-plate&quot;&gt;&lt;/div&gt;
+				{{# sectionBlock }}
+				&lt;div class=&quot;section-body&quot;&gt;
+					&lt;h2 class=&quot;section-title&quot;&gt;{{ headline.short }}&lt;/h2&gt;
+					&lt;p class=&quot;section-desc&quot;&gt;{{ excerpt.short }}&lt;/p&gt;
+					&lt;ul class=&quot;text-list&quot;&gt;
+						{{# textList }}
+						&lt;li&gt;&lt;a href=&quot;{{ url }}&quot;&gt;{{ label }}&lt;/a&gt;&lt;/li&gt;
+						{{/ textList }}
+					&lt;/ul&gt;
+				&lt;/div&gt;
+				{{/ sectionBlock }}
+			&lt;/div&gt;
+		&lt;/section&gt;
+
+
+	&lt;/div&gt;&lt;!--End role=main--&gt;
+	{{&gt; organisms-footer }}
+&lt;/div&gt;

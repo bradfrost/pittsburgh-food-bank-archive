@@ -1,0 +1,47 @@
+&lt;div class=&quot;page&quot; id=&quot;page&quot;&gt;
+	{{&gt; organisms-header }}
+	&lt;div role=&quot;main&quot;&gt;
+		{{&gt; molecules-page-header }}
+		&lt;div class=&quot;main-body l&quot;&gt;
+			&lt;div class=&quot;g g-2up&quot;&gt;
+				&lt;div class=&quot;gi&quot;&gt;
+					&lt;a href=&quot;{{ url }}&quot;&gt;
+						&lt;figure&gt;
+							{{&gt; atoms-hero }}
+							&lt;figcaption&gt;Get directions&lt;/figcaption&gt;
+						&lt;/figure&gt;
+					&lt;/a&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;gi&quot;&gt;
+					&lt;h2&gt;Greater Pittsburgh Community Food Bank&lt;/h2&gt;
+					1 North Linden Street&lt;br /&gt;
+					Duquesne, PA 15110&lt;br /&gt;
+					&lt;a href=&quot;{{ url }}&quot;&gt;Phone: 412-460-3663&lt;/a&gt;
+					&lt;a href=&quot;{{ url }}&quot;&gt;Fax: 412-460-0418&lt;/a&gt;
+					&lt;a href=&quot;{{ url }}&quot;&gt;Email us&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			{{&gt; organisms-split }}
+			&lt;div class=&quot;lc&quot;&gt;
+				&lt;section class=&quot;section&quot;&gt;
+					&lt;h2 class=&quot;section-title&quot;&gt;Contact Departments&lt;/h2&gt;
+					&lt;p class=&quot;section-desc&quot;&gt;Please call &lt;strong&gt;(412) 460-3663&lt;/strong&gt; and use the department's corresponding extension, or send an email.&lt;/p&gt;
+					&lt;div class=&quot;g g-4up-linear&quot;&gt;
+						{{# departmentList }}
+						&lt;div class=&quot;gi&quot;&gt;
+							{{&gt; molecules-block-contact }}
+						&lt;/div&gt;
+						{{/ departmentList }}
+					&lt;/div&gt;&lt;!--end .g-4up--&gt;
+				&lt;/section&gt;
+				&lt;hr /&gt;
+				&lt;section class=&quot;section contact-form-section&quot;&gt;
+					&lt;h2 class=&quot;section-title&quot;&gt;Send a Message&lt;/h2&gt;
+					&lt;p class=&quot;section-desc&quot;&gt;Have a question? Need to Lorem ipsum dolor sit amet, consectetur adipisicing elit? Contact us&lt;/p&gt;
+					{{&gt; molecules-contact-form }}
+				&lt;/section&gt;
+			&lt;/div&gt;&lt;!--end .lc--&gt;
+		&lt;/div&gt;&lt;!--end main-body--&gt;
+	&lt;/div&gt;&lt;!--End role=main--&gt;
+	{{&gt; organisms-footer }}
+&lt;/div&gt;

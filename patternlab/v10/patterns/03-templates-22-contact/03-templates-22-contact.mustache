@@ -1,0 +1,71 @@
+&lt;div class=&quot;page&quot; id=&quot;page&quot;&gt;
+	{{&gt; organisms-header }}
+	&lt;div role=&quot;main&quot;&gt;
+		{{&gt; molecules-page-header }}
+		&lt;div class=&quot;main-body l&quot;&gt;
+			&lt;div class=&quot;lc&quot;&gt;
+				&lt;div class=&quot;g g-2up&quot;&gt;
+					&lt;div class=&quot;gi&quot;&gt;
+						&lt;a href=&quot;{{ url }}&quot;&gt;
+							&lt;figure&gt;
+								{{&gt; atoms-hero }}
+								&lt;figcaption&gt;Get directions&lt;/figcaption&gt;
+							&lt;/figure&gt;
+						&lt;/a&gt;
+					&lt;/div&gt;
+					&lt;div class=&quot;gi&quot;&gt;
+						&lt;h2&gt;Greater Pittsburgh Community Food Bank&lt;/h2&gt;
+						1 North Linden Street&lt;br /&gt;
+						Duquesne, PA 15110&lt;br /&gt;
+						&lt;a href=&quot;{{ url }}&quot;&gt;Phone: 412-460-3663&lt;/a&gt;
+						&lt;a href=&quot;{{ url }}&quot;&gt;Fax: 412-460-0418&lt;/a&gt;
+						&lt;a href=&quot;{{ url }}&quot;&gt;Email us&lt;/a&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			
+			&lt;section class=&quot;section&quot;&gt;
+				&lt;div class=&quot;lc&quot;&gt;
+					&lt;div class=&quot;list-section list-section-get-help&quot;&gt;
+						&lt;h2 class=&quot;list-section-title&quot;&gt;Get Help&lt;/h2&gt;
+						&lt;p&gt;If you need emergency food, please contact the Hunger Services Network of the &lt;a href=&quot;http://ulpgh.org&quot;&gt;Urban League of Pittsburgh&lt;/a&gt; at 412-325-0749&lt;/p&gt;
+						&lt;ul class=&quot;text-list&quot;&gt;
+						&lt;/ul&gt;
+					&lt;/div&gt;
+					&lt;div class=&quot;list-section list-section-give-help&quot;&gt;
+						&lt;h2 class=&quot;list-section-title&quot;&gt;Give Help&lt;/h2&gt;
+						&lt;p&gt;If you want to donate money, please &lt;a href=&quot;/donate&quot;&gt;donate online&lt;/a&gt; or call &lt;a href=&quot;tel:+14124603663&quot;&gt;412-460-3663&lt;/a&gt;.&lt;/p&gt;
+						&lt;ul class=&quot;text-list&quot;&gt;
+						&lt;/ul&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/section&gt;
+
+			&lt;section class=&quot;section section-alt&quot;&gt;
+				&lt;div class=&quot;lc&quot;&gt;
+					&lt;header class=&quot;section-header&quot;&gt;
+						&lt;h2 class=&quot;section-title&quot;&gt;Contact Departments&lt;/h2&gt;
+						&lt;p class=&quot;section-desc&quot;&gt;Please call &lt;strong&gt;(412) 460-3663&lt;/strong&gt; and use the department's corresponding extension, or send an email.&lt;/p&gt;
+					&lt;/header&gt;
+					&lt;div class=&quot;g g-4up-linear&quot;&gt;
+						{{# departmentList }}
+						&lt;div class=&quot;gi&quot;&gt;
+							{{&gt; molecules-block-contact }}
+						&lt;/div&gt;
+						{{/ departmentList }}
+					&lt;/div&gt;&lt;!--end .g-4up--&gt;
+				&lt;/div&gt;
+			&lt;/section&gt;
+			&lt;section class=&quot;section section-pad contact-form-section&quot;&gt;
+				&lt;div class=&quot;lc lc-single&quot;&gt;
+					&lt;header class=&quot;section-header&quot;&gt;
+						&lt;h2 class=&quot;section-title&quot;&gt;Send a Message&lt;/h2&gt;
+					&lt;/header&gt;
+					{{&gt; molecules-contact-form }}
+				&lt;/div&gt;
+			&lt;/section&gt;
+
+		&lt;/div&gt;&lt;!--end main-body--&gt;
+	&lt;/div&gt;&lt;!--End role=main--&gt;
+	{{&gt; organisms-footer }}
+&lt;/div&gt;

@@ -1,0 +1,14 @@
+{{# sidebarEventList }}
+&lt;section class=&quot;widget tribe-events-list-widget&quot;&gt;
+	&lt;h3 class=&quot;widgettitle&quot;&gt;&lt;a href=&quot;{{ link.pages-events }}&quot;&gt;{{ headline.xs }}&lt;/a&gt;&lt;/h3&gt;
+	&lt;ul class=&quot;sidebar-block-list post-list&quot;&gt;
+		{{# eventList }}
+		&lt;li class=&quot;block-headline-byline&quot;&gt;
+			&lt;h4 class=&quot;b-title&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{ label }}&lt;/a&gt;&lt;/h4&gt;
+			&lt;p class=&quot;b-excerpt byline&quot;&gt;{{ date }}&lt;/p&gt;
+		&lt;/li&gt;
+		{{/ eventList }}
+	&lt;/ul&gt;
+	{{&gt; molecules-text-button }}
+&lt;/section&gt;
+{{/ sidebarEventList }}
